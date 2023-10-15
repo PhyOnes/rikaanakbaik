@@ -15,7 +15,8 @@ html {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Source Code Pro", monospace; */
+  font-family: "Kalam", cursive;
   background-color: #ffe8cd;
 }
 
@@ -63,39 +64,6 @@ header {
 .headerItem a:hover::after {
   transition: 10s;
 }
-
-.headerButton button {
-  padding: 10px 20px;
-  border: none;
-  margin: 0px 10px;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: background-color 0.4s, transform 0s;
-  font-size: 15px;
-}
-
-.headerLogin {
-  background-color: var(--primary);
-  color: var(--white);
-}
-
-.headerSign {
-  background-color: var(--white);
-  color: var(--primary);
-}
-
-.headerLogin:hover {
-  color: rgb(255, 255, 255) !important;
-  transition: 0.4s;
-  box-shadow: 0 5px 9px rgba(0, 0, 0, 0.5);
-}
-
-.headerSign:hover {
-  color: var(--black);
-  transition: 0.4s;
-  box-shadow: 0 5px 9px rgba(0, 0, 0, 0.5);
-}
-
 /* Home */
 
 .sectionOne {
@@ -179,7 +147,6 @@ header {
   padding: 0px 30px 20px 30px;
   margin: 0px 500px;
   border-radius: 25px;
-  box-shadow: 0px 30px 40px rgba(113, 113, 113, 0.2);
 }
 
 .sectionContactTitle {
@@ -250,6 +217,7 @@ header {
   color: var(--white);
   padding: 20px;
   text-align: center;
+  font-size: 17px;
   border-top: 2px solid var(--primary);
 }
 /* Laptop */
