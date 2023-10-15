@@ -87,7 +87,7 @@ header {
 .div1 {
   background-color: #da9d6b;
   width: 20%;
-  padding-bottom: 650px;
+  padding-bottom: 750px;
   padding-top: 90px;
 }
 
@@ -148,13 +148,29 @@ header {
   width: 80%;
 }
 
-.task1 h1 {
-  margin-top: 90px;
-  padding: 20px;
+.tugasUtama {
+  margin-top: 400px;
+  text-align: center;
 }
 
-.task1 span {
-  font-weight: lighter;
+.tugasMm {
+  text-align: center;
+  margin-top: 400px;
+}
+
+.tugasBi {
+  text-align: center;
+  margin-top: 400px;
+}
+
+.tugasAi {
+  text-align: center;
+  margin-top: 400px;
+}
+
+.tugasTkj {
+  margin-top: 90px;
+  padding: 20px;
 }
 
 .splicingTkj h1 {
