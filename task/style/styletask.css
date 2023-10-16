@@ -108,6 +108,24 @@ header {
   font-size: 20px;
 }
 
+.navInfor {
+  background-color: #b17b50;
+  display: block !important;
+  text-decoration: none !important;
+  color: #fff;
+  padding: 10px 30px;
+  font-size: 20px;
+}
+
+.navBing {
+  background-color: #b17b50;
+  display: block !important;
+  text-decoration: none !important;
+  color: #fff;
+  padding: 10px 30px;
+  font-size: 20px;
+}
+
 /* Section Right */
 
 .div2 {
